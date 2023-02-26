@@ -1,0 +1,27 @@
+.App {
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+}
+
+.messages {
+  font-size: 18px;
+  margin: 0 0 0 2rem;
+  width: 50%;
+  .message {
+    margin-bottom: 15px;
+  }
+}
+
+.form__message {
+  &__input {
+    padding: 1rem;
+  }
+}
+
+.message__input {
+  width: 50%;
+}
